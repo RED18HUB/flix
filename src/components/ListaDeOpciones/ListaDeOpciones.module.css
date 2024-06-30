@@ -1,0 +1,19 @@
+.listaOpciones{
+    display: block;
+    align-self: center;
+}
+.listaOpciones label{
+    display: block;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 8px;
+    
+}
+
+.listaOpciones select{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 30px;
+    gap: 10px;
+    border: none;
+}

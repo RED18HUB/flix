@@ -1,0 +1,10 @@
+.boton{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 24px 32px;
+    border: none;
+    color: rgb(24, 131, 224);
+    margin: 32px 0;
+    
+}

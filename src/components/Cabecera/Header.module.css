@@ -1,0 +1,54 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%; /* Máximo ancho fijo */
+    height: 125px; /* Altura fija */
+    margin: 5px auto 0; /* Centra la cabecera horizontalmente */
+    padding: 10px 20px;
+    background: var(--Dark-Grey, rgba(38, 38, 38, 1));
+    border-bottom: 4px solid var(--Blue, rgba(34, 113, 209, 1));
+    box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+  }
+  
+  .cabecera:hover {
+    box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+  }
+  
+  .logoContainer img {
+    width: 168.45px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, border 0.3s ease; /* Animación suave en hover */
+  }
+  
+  .nav a:hover {
+    border: 1px solid rgba(34, 113, 209, 0.7);
+    box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+  }
+  

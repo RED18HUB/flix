@@ -1,0 +1,17 @@
+.campoTexto{
+    margin: 20px 0;
+
+}
+.campoTexto label{
+    display: block;
+    
+
+}
+.campoTexto input{
+    width: 99%;
+    background-color: aliceblue;
+    border: none;
+    padding: 30px 20px;
+    outline-color:blue ;
+    box-sizing: border-box;
+}

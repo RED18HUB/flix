@@ -1,0 +1,23 @@
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.formulario form{
+    max-width: 80%;
+    background-color: black;
+    color: white;
+    padding: 8px 100px;
+}
+.contenedorCampo{
+    display: flex;
+    gap: 20px; 
+  
+}
+.campo{
+    margin-right: 20px; 
+   
+}

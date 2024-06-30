@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+
+.link{
+    background-color: #1a1a1a;
+    border: 5px solid rgba(107, 209, 255, 1);
+    width: calc(33.33% - 20px);
+    border-radius: 25px;
+    overflow: hidden;
+    
+ 
+    
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-bottom: 5px solid rgba(107, 209, 255, 1);
+    border-radius: 25px 25px 0 0;
+    
+}
+  
+.videoCardFooter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0f0e0e;
+    border-radius: 0 0 25px 25px;
+}
+
+.videoCardFooter button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #085b81;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.videoCardFooter button:hover {
+    background-color: rgba(107, 209, 255, 0.1);
+}
